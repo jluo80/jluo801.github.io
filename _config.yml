@@ -1,22 +1,15 @@
-# ----------- CONFIGURABLE START -----------
-title:            "jluo80"
-description:      "#IMMA A STAR."
-url:              http://jluo80.github.io # Site url, without a slash at the end.
-signoff:          "jluo80" # Your name
-facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
-share:            true # Turn on twitter and facebook share buttons
+# Site settings
+title: San's world
+email: hueidou163@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  个人博客。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://san.sanrabbit.com" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  hueidou
+disqus: hueidou
 
-links:
-  - name:         Posts
-    url:          /
-    external:     false
-  - name:         About me
-    url:          /about
-    external:     false
-# ------------ CONFIGURABLE END ------------
+# Build settings
+markdown: rdiscount
 
-permalink:        /posts/:title
-defaults:
-  - values:
-      layout: "default"
+permalink: /:year/:month/:day/:title.html

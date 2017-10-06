@@ -1,32 +1,24 @@
-# Scribble
+﻿这里放置着我的博客数据
+===
 
-A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
+当我推送东西到这里时，[Jekyll](http://github.com/mojombo/jekyll)会将这个库自动转化为一个静态网站。
 
-![screenshot](https://cloud.githubusercontent.com/assets/1153134/23830104/6d4665e0-06b7-11e7-8805-57e73c346459.png)
+我使用Jekyll的默认模板，站点名称为[San's world](http://hueidou.github.io/)。
 
-## Get started
+许可证
+===
 
-1. [Fork the repository](https://github.com/muan/scribble/fork)
+下面的文件和文件夹及其内容属于hueidou163。你不可以转载或直接使用它们，除非经过我的允许。
 
-2. Clone the repository: `git clone https://github.com/username/scribble`
+* _posts/
+* images/
+* favicon.ico
 
-3. Run `bundle install`
+其他的文件和文件夹使用MIT许可，你可以随意使用这些HTML和CSS。如果可以，希望你加一个链接到作者的[Jekyll](http://github.com/mojombo/jekyll)项目上去，当然这不是必须的。
 
-4. Run Jekyll: `bundle exec jekyll serve -w`
+其他
+===
 
-5. Go to http://localhost:4000 for your site.
+看到有将近20个fork，感到很荣幸~！但还是提醒大家，用Github Pages建立自己的博客个人不建议使用fork，参考[GitHub Pages](https://pages.github.com/)。
 
----
-
-## Make it yours
-
-1. Edit `_config.yml`, adn then rerun `jekyll serve -w`
-
-2. Change `about.md` for blog intro
-
-3. For domain settings see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
-
-## The end
-
-Like it? [Tell me](http://twitter.com/muanchiou).<br/>
-Problem? [Use GitHub Issues](https://github.com/muan/scribble).
+另外，如果fork或者使用这个模板，请遵守许可证的说明对相应内容进行删除，并且请删除Disqus、Google统计等第三方个人代码。（评论有乱入的呀~）
