@@ -1,24 +1,56 @@
-﻿这里放置着我的博客数据
-===
+Scribble
+========
 
-当我推送东西到这里时，[Jekyll](http://github.com/mojombo/jekyll)会将这个库自动转化为一个静态网站。
+A jekyll theme. [demo](http://chloerei.com/scribble/2013/10/11/placeholder-post/)
+<br />
 
-我使用Jekyll的默认模板，站点名称为[San's world](http://hueidou.github.io/)。
+![screenshot](http://scribble.muan.co/images/screenshot.png)
 
-许可证
-===
+This theme is fork from https://github.com/muan/scribble .
 
-下面的文件和文件夹及其内容属于hueidou163。你不可以转载或直接使用它们，除非经过我的允许。
+---
 
-* _posts/
-* images/
-* favicon.ico
+### Get started
 
-其他的文件和文件夹使用MIT许可，你可以随意使用这些HTML和CSS。如果可以，希望你加一个链接到作者的[Jekyll](http://github.com/mojombo/jekyll)项目上去，当然这不是必须的。
+1. [Fork the repository](https://github.com/chloerei/scribble/fork).
+2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble` .
+3. `bundle install` .
+4. Run serve and watch assets change using `rake`, go to http://localhost:4000 for your site.
 
-其他
-===
+---
 
-看到有将近20个fork，感到很荣幸~！但还是提醒大家，用Github Pages建立自己的博客个人不建议使用fork，参考[GitHub Pages](https://pages.github.com/)。
+### Replace theme for exists site
 
-另外，如果fork或者使用这个模板，请遵守许可证的说明对相应内容进行删除，并且请删除Disqus、Google统计等第三方个人代码。（评论有乱入的呀~）
+1. Remove all theme files in your project, and commit.
+2. `git remote add scribble https://github.com/username/scribble` .
+3. `git pull scribble master` and fix conflict.
+
+---
+
+### Make it yours
+
+1. I have extract most user specific information to `_config.yml`, you should be able to set up almost everything from it.
+2. Change about.md for blog intro.
+3. For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
+
+---
+
+### Post options
+
+When writing a post, there are 1 option you can add to the header.
+
+1. `disqus: false`<br />
+   Close Disqus for this post.
+
+---
+
+### Page options
+
+When writing a page, there are 3 options you can add to the header.
+
+1. `disqus: false`<br />
+   Close Disqus for this post.
+2. `prev_page: /path/to/prev_page`<br />
+   Set the prev page path for pagination.
+3. `next_page: /path/to/next_page`<br />
+   Set the next page path for pagination.

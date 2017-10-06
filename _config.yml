@@ -1,15 +1,28 @@
-# Site settings
-title: J Luo
-email: jiahao.luo2014@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  个人博客。
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jluo80.github.io" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username: jluo80	
-disqus: jluo80
+title:            Scribble
+description:      A jekyll theme. Because I scribble.
+url:              # Site url.
+baseurl:          # Base url. ( if use subdirectory-like URL )
+signoff:          Scribble # Your name.
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+google_analytics_id: # set tracking, UA-XXXX-Y.
 
-# Build settings
-markdown: rdiscount
+links:
+  - name:         About
+    url:          /about
+  - name:         Feed
+    url:          /feed.xml
+  - name:         Blog
+    url:          http://chloerei.com
+    external:     true
+  - name:         Email
+    url:          mailto:chloerei@gmail.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/chloerei/scribble
+    external:     true
 
-permalink: /:year/:month/:day/:title.html
+pygments:         true
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:     [autolink, tables]
