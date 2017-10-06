@@ -1,24 +1,24 @@
-title:            Scribble
+title:            J Luo
 description:      A jekyll theme. Because I scribble.
-url:              # Site url.
+url:              https://jluo80.github.io/
 baseurl:          # Base url. ( if use subdirectory-like URL )
-signoff:          Scribble # Your name.
+signoff:          J Luo # Your name.
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 google_analytics_id: # set tracking, UA-XXXX-Y.
 
 links:
   - name:         About
-    url:          /about
+    url:          about.md
   - name:         Feed
     url:          /feed.xml
   - name:         Blog
-    url:          http://chloerei.com
+    url:          https://jluo80.github.io/
     external:     true
   - name:         Email
-    url:          mailto:chloerei@gmail.com
+    url:          mailto:jiahao.luo2014@gmail.com
     external:     true
   - name:         GitHub
-    url:          http://github.com/chloerei/scribble
+    url:          https://github.com/jluo80
     external:     true
 
 pygments:         true
