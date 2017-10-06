@@ -1,25 +1,22 @@
-title:            J Luo
-description:      A jekyll theme. Because I scribble.
-url:              https://jluo80.github.io/
-baseurl:          # Base url. ( if use subdirectory-like URL )
-signoff:          J Luo # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-google_analytics_id: # set tracking, UA-XXXX-Y.
+# ----------- CONFIGURABLE START -----------
+title:            "Scribble"
+description:      "Such theme, very cool."
+url:              http://scribble.muan.co # Site url, without a slash at the end.
+signoff:          "muan" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            false # Turn on twitter and facebook share buttons
 
 links:
-  - name:         About
-    url:          about.md
-  - name:         Feed
-    url:          /feed.xml
-  - name:         Blog
-    url:          https://jluo80.github.io/
-    external:     true
-  - name:         GitHub
-    url:          https://github.com/jluo80
-    external:     true
+  - name:         Posts
+    url:          /
+    external:     false
+  - name:         About me
+    url:          /about
+    external:     false
+# ------------ CONFIGURABLE END ------------
 
-pygments:         true
-permalink:        pretty
-markdown:         redcarpet
-redcarpet:
-  extensions:     [autolink, tables]
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"

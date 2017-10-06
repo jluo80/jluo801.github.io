@@ -1,56 +1,32 @@
-Scribble
-========
+# Scribble
 
-A jekyll theme. [demo](http://chloerei.com/scribble/2013/10/11/placeholder-post/)
-<br />
+A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
 
-![screenshot](http://scribble.muan.co/images/screenshot.png)
+![screenshot](https://cloud.githubusercontent.com/assets/1153134/23830104/6d4665e0-06b7-11e7-8805-57e73c346459.png)
 
-This theme is fork from https://github.com/muan/scribble .
+## Get started
 
----
+1. [Fork the repository](https://github.com/muan/scribble/fork)
 
-### Get started
+2. Clone the repository: `git clone https://github.com/username/scribble`
 
-1. [Fork the repository](https://github.com/chloerei/scribble/fork).
-2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble` .
-3. `bundle install` .
-4. Run serve and watch assets change using `rake`, go to http://localhost:4000 for your site.
+3. Run `bundle install`
 
----
+4. Run Jekyll: `bundle exec jekyll serve -w`
 
-### Replace theme for exists site
-
-1. Remove all theme files in your project, and commit.
-2. `git remote add scribble https://github.com/username/scribble` .
-3. `git pull scribble master` and fix conflict.
+5. Go to http://localhost:4000 for your site.
 
 ---
 
-### Make it yours
+## Make it yours
 
-1. I have extract most user specific information to `_config.yml`, you should be able to set up almost everything from it.
-2. Change about.md for blog intro.
-3. For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
+1. Edit `_config.yml`, adn then rerun `jekyll serve -w`
 
----
+2. Change `about.md` for blog intro
 
-### Post options
+3. For domain settings see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
 
-When writing a post, there are 1 option you can add to the header.
+## The end
 
-1. `disqus: false`<br />
-   Close Disqus for this post.
-
----
-
-### Page options
-
-When writing a page, there are 3 options you can add to the header.
-
-1. `disqus: false`<br />
-   Close Disqus for this post.
-2. `prev_page: /path/to/prev_page`<br />
-   Set the prev page path for pagination.
-3. `next_page: /path/to/next_page`<br />
-   Set the next page path for pagination.
+Like it? [Tell me](http://twitter.com/muanchiou).<br/>
+Problem? [Use GitHub Issues](https://github.com/muan/scribble).
