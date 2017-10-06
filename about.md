@@ -1,17 +1,14 @@
 ---
-layout: page
-title: About
-disqus: false
+title: About me
 ---
+I am a graduated master student of Computational Science and Engineering at Georgia Tech and currently an AI and machine learning engineer at SF express. I am interested in computer vision and deep reinforcement learning.
 
-## Create by Mu-An
+My course project experiences have given me the opportunity to learn a wide scope of emerging technologies in a short amount of time. I’ve been studying and learning about different fields in computer science, such as data analytics, mobile applications and web services development and software development. Immersing myself in these fields has created a great interest in the software development environment.
 
-Give people something to read and get to know you. Here's my attempt: this is [Mu-An](http://muan.co), a designer developer who lives in London at the moment.
+There are new technologies and terminologies coming out every day. I believe that my great curiosity to learn and a great capability to acquire rapidly will allow me to fit well in AI research environment.
 
-Tweet at [@muanchiou](http://twitter.com/muanchiou), read my code on [GitHub](http://github.com/muan), see my designs on [Dribbble](http://dribbble.com/muan), find my CV on [LinkedIn](http://uk.linkedin.com/in/muanchiou).
+(Excellent fast-learning ability, great curiosity towards new technique. Experience in AI and machine learning with TensorFlow, Big data processing with Spark and Scala, software development (including Android application development), web development using Java, Python and JavaScript (D3.js). )
 
-This theme is made by me. You have a nice day. ♥
 
-## Modify by Rei
 
-http://chloerei.com
+Find me on [GitHub](https://github.com/jluo80) or [LinkedIn](https://www.linkedin.com/in/jiahao-luo/).
