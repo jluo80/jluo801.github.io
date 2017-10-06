@@ -1,13 +1,13 @@
 # Site settings
-title: San's world
-email: hueidou163@gmail.com
+title: J Luo
+email: jiahao.luo2014@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   个人博客。
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://san.sanrabbit.com" # the base hostname & protocol for your site
+url: "http://jluo80.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
-github_username:  hueidou
-disqus: hueidou
+github_username: jluo80	
+disqus: jluo80
 
 # Build settings
 markdown: rdiscount
