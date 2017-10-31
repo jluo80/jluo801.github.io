@@ -4,7 +4,6 @@ date: 2017-10-31 10:49:31
 ---
 
 除了在Mesos和YARN集群管理器上运行，Spark也提供了简单的Standalone部署模式。我们可以手动创建master和workers节点，或者利用Spark提供的脚本去运行。
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 ### Installing Spark Standalone to a Cluster
 （1）手动形式启动cluster
