@@ -111,6 +111,12 @@ export HADOOP_CONF_DIR=XXX
 ![](/images/spark_launching/client_mode.png)
 ![](/images/spark_launching/cluster_mode.png)
 
+| Name | Academy | score |
+| - | :-: | -: |
+| Harry Potter | Gryffindor| 90 |
+| Hermione Granger | Gryffindor | 100 |
+| Draco Malfoy | Slytherin | 90 |
+
 ### Master URLs
 Master URL| Meaning
 ----------| -------
