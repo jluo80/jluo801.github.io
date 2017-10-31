@@ -106,21 +106,12 @@ export HADOOP_CONF_DIR=XXX
   1000
 ```
 
-在cline模式下，driver在master节点上启动，master和其他workers在同一个网段。在cluser模式下，driver是在其中一个workers中启动，当client进程完成了提交任务的责任后便会退出，并不需要等应用完成，master和其他workers可以在不同网段。通过spark-submit启动应用，应用的jar包会被自动分发到所有workers上。对于其他需要用到的额外jar包，可以通过--jars jar1, jar2来指定。
+在client模式下，driver在master节点上启动，master和其他workers在同一个网段。在cluser模式下，driver是在其中一个workers中启动，当client进程完成了提交任务的责任后便会退出，并不需要等应用完成，master和其他workers可以在不同网段。通过spark-submit启动应用，应用的jar包会被自动分发到所有workers上。对于其他需要用到的额外jar包，可以通过--jars jar1, jar2来指定。
 
 ![](/images/spark_launching/client_mode.png)
 ![](/images/spark_launching/cluster_mode.png)
 
 ### Master URLs
-| Master URL | Meaning | score |
-| - | :-: | -: |
-| local | Run Spark locally with one worker thread (i.e. no parallelism at all).| 90 |
-| local[k] | Run Spark locally with K worker threads (ideally, set this to the number of cores on your machine). | 100 |
-| local[*] | Run Spark locally with as many worker threads as logical cores on your machine. | 90 |
-| spark://HOST:PORT | Connect to the given Spark standalone cluster master. The port must be whichever one your master is configured to use, which is 7077 by default. | 90 |
-| mesos://HOST:PORT | Connect to the given Mesos cluster. The port must be whichever one your is configured to use, which is 5050 by default. Or, for a Mesos cluster using ZooKeeper, use mesos://zk://.... To submit with --deploy-mode cluster, the HOST:PORT should be configured to connect to the MesosClusterDispatcher. | 90 |
-| yarn  | Connect to a YARN cluster in client or cluster mode depending on the value of --deploy-mode. The cluster location will be found based on the HADOOP_CONF_DIR or YARN_CONF_DIR variable. | 90 |
-
 
 | Master URL | Meaning |
 | ------ | ------ |
