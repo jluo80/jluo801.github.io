@@ -114,7 +114,7 @@ export HADOOP_CONF_DIR=XXX
 
 ### Master URLs
 | Master URL | Meaning |
-| ---------- | -------:|
+| ------ | ------ |
 | local | Run Spark locally with one worker thread (i.e. no parallelism at all). |
 | local[k] | Run Spark locally with K worker threads (ideally, set this to the number of cores on your machine). |
 | local[*] | Run Spark locally with as many worker threads as logical cores on your machine. |
