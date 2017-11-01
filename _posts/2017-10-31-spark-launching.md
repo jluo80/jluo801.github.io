@@ -111,4 +111,5 @@ export HADOOP_CONF_DIR=XXX
 ![](/images/spark_launching/client_mode.png)
 ![](/images/spark_launching/cluster_mode.png)
 
+### Master URL
 ![](/images/spark_launching/master_url.png)
