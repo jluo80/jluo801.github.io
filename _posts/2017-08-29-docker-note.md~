@@ -12,25 +12,25 @@ Docker as a new technique is becoming more and more popular in development. In t
 ![](/images/docker_note/container_architecture.png)
 
 3. Dockerfile: Dockerfile is the necessary file to build an image. It's like a configuration file which tell the docker how to build this image. The following is an example Dockerfile:
-```sh
-FROM tensorflow/tensorflow:1.2.1-gpu-py3
+	```
+	FROM tensorflow/tensorflow:1.2.1-gpu-py3
 
-MAINTAINER jiahao.luo2014@gmail.com
+	MAINTAINER jiahao.luo2014@gmail.com
 
-RUN mkdir /code
-RUN mkdir /data
-RUN mkdir /data/modified_training_data
-RUN mkdir /data/modified_testing_data
+	RUN mkdir /code
+	RUN mkdir /data
+	RUN mkdir /data/modified_training_data
+	RUN mkdir /data/modified_testing_data
 
-ADD ./ /code
+	ADD ./ /code
 
-WORKDIR /code
+	WORKDIR /code
 
-CMD CUDA_VISIBLE_DEVICES=3 python claim_train.py python claim_eval.py
-```
+	CMD CUDA_VISIBLE_DEVICES=3 python claim_train.py python claim_eval.py
+	```
 
 #### Basic command
-```sh
+```
 sudo service docker restart
 sudo docker search ubuntu # search image named ubuntu
 sudo docker login
