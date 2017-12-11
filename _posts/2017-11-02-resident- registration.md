@@ -57,8 +57,6 @@ date: 2017-11-02 14:28:31
 - 最终，在不知道什么力量的帮助下，我在Ubuntu系统下，用Firefox浏览器，成功获取了验证码。（我表示这就是个意外。）
 - 最后在租房补贴界面填写银行卡信息并签名即可。
 
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
 
