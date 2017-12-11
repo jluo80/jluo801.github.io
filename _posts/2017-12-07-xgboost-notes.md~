@@ -1,5 +1,5 @@
 ---
-title: 树系列笔记：XGBoost: A Scalable Tree Boosting System
+title: XGBoost: A Scalable Tree Boosting System
 date: 2017-11-02 14:28:31
 ---
 
